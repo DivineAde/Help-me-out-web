@@ -1,8 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Help me out webpage
 
-First, run the development server:
+This is the UI of the help me out webpage, where visitors can checkout the screen recording extension
 
 ```bash
 npm run dev
