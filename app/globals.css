@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --button-background:  rgba(18, 11, 72, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background-color: #fff;
+}
+
+.text-color {
+  color: rgba(16, 10, 66, 1);
+  ;
+}
+
+.blue {
+  background: rgba(16, 10, 66, 1);
+}
+
+.home_input {
+  background: linear-gradient(0deg, #E7E7ED, #E7E7ED),
+  linear-gradient(0deg, rgba(182, 179, 198, 0.14), rgba(182, 179, 198, 0.14));
+}
+
+.login-box {
+  background-color: transparent;
+  padding: 30px 10px;
+  width: 570px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.save_bg {
+  background-color: rgba(231, 231, 237, 0.2);
+}
